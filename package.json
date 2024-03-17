@@ -1,0 +1,18 @@
+{
+  "name": "jsr demo",
+  "private": true,
+  "description": "jsr demo",
+  "keywords": [
+    "jsr demo"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "jsr"
+  },
+  "author": "poliwen",
+  "scripts": {
+    "build": "pnpm --filter=./packages/w-utils run build",
+    "publish": "pnpm --filter=./packages/w-utils run publish"
+  }
+}

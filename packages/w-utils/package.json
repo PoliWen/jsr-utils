@@ -1,0 +1,38 @@
+{
+  "name": "poli-utils",
+  "version": "0.0.2",
+  "private": false,
+  "description": "This is a javascritp utils packages",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "unbuild",
+    "publish":"npm publish"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "keywords": [
+    "js",
+    "utils"
+  ],
+  "author": "poliwen",
+  "license": "MIT",
+  "devDependencies": {
+    "unbuild": "^2.0.0",
+    "publish":"npm publish"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
