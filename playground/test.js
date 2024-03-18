@@ -1,4 +1,4 @@
-"use strict";
-exports.__esModule = true;
-var cases_1 = require("@luca/cases");
-console.log(cases_1.camelCase('hello world')); // helloWorld
+import { camelCase } from '@luca/cases'
+import {isString} from '@wen/utils'
+console.log(isString('hello')) // true
+console.log(camelCase('hello world')) // helloWorld
