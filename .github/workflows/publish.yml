@@ -15,8 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: cd the packages file
-        run: cd packages/jsr-utils
-
       - name: Publish package
-        run: npx jsr publish
+        run: |
+         cd packages/jsr-utils
+         npx jsr publish
