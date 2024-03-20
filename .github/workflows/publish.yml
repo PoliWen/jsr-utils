@@ -17,5 +17,5 @@ jobs:
 
       - name: Publish package
         run: |
-         cd packages/jsr-utils
+         cd packages/test-utils
          npx jsr publish

@@ -12,6 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "@luca/cases": "npm:@jsr/luca__cases@^1.0.0",
-    "@wen/utils": "npm:@jsr/wen__utils@^0.0.1"
+    "@wen/test-utils": "npm:@jsr/wen__test-utils@^0.0.3",
+    "@wen/utils": "npm:@jsr/wen__utils@^0.0.1",
+    "poli-utils": "^0.0.10"
   }
 }

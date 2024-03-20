@@ -1,6 +1,6 @@
 {
   "name": "poli-utils",
-  "version": "0.0.2",
+  "version": "0.0.10",
   "private": false,
   "description": "This is a javascritp utils packages",
   "main": "./dist/index.cjs",
@@ -11,8 +11,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "unbuild",
-    "publish":"npm publish"
+    "build": "unbuild"
   },
   "exports": {
     ".": {
@@ -28,8 +27,7 @@
   "author": "poliwen",
   "license": "MIT",
   "devDependencies": {
-    "unbuild": "^2.0.0",
-    "publish":"npm publish"
+    "unbuild": "^2.0.0"
   },
   "publishConfig": {
     "access": "public",
