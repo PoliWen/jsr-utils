@@ -1,3 +1,4 @@
+import add  from 'lodash.add'
 /**
  * 获取数据类型
  * @param target  目标数据
@@ -24,4 +25,14 @@ export function isString(str: unknown):boolean{
  */
 export function isArray(str: unknown):boolean{
     return getType(str) === 'Array'
+}
+
+
+/**
+ *  判断是否是数组
+ * @param str  目标数据
+ * @returns boolean
+ */
+export function wrapAdd(a: number,b:number):number{
+    return add(a,b)
 }

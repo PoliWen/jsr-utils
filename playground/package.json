@@ -13,6 +13,6 @@
   "dependencies": {
     "@luca/cases": "npm:@jsr/luca__cases@^1.0.0",
     "@wen/utils": "npm:@jsr/wen__utils@^0.0.8",
-    "poli-utils": "^0.0.10"
+    "poli-utils": "^0.0.13"
   }
 }

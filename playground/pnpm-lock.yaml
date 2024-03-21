@@ -12,8 +12,8 @@ dependencies:
     specifier: npm:@jsr/wen__utils@^0.0.8
     version: /@jsr/wen__utils@0.0.8
   poli-utils:
-    specifier: ^0.0.10
-    version: 0.0.10
+    specifier: ^0.0.13
+    version: 0.0.13
 
 packages:
 
@@ -27,10 +27,16 @@ packages:
       lodash: 4.17.21
     dev: false
 
+  /lodash.add@3.7.0:
+    resolution: {integrity: sha512-/uxUZkB6vYiPoGSXADJJE+Ee4W2vU+bxZOFdvJdx+mDgv+qyAO76sWD84Q4FxsMgTjC1+gVFC9YNhdG243QRDw==}
+    dev: false
+
   /lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
 
-  /poli-utils@0.0.10:
-    resolution: {integrity: sha512-pOJQ+hSCDJAt/jr5G6KdzK7vtLYfiyzPm5vZPKzv26AF/dbza8I5w0SryEVjv85ykDYpjA2cepPilQOcaru7gQ==}
+  /poli-utils@0.0.13:
+    resolution: {integrity: sha512-2IBddl7fuFyPH4nRAgkmNMklC8nmgkVBgvlWN4ho1LxHp/o3jlVn+GbyTpcIl5c0OBitti5O/Quc3kbcQvR4Bg==}
+    dependencies:
+      lodash.add: 3.7.0
     dev: false

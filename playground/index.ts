@@ -1,8 +1,8 @@
 import { camelCase } from '@luca/cases'
-import { isString, myClone } from '@wen/utils'
-import { isArray } from 'poli-utils'
+import { isString } from '@wen/utils'
+import { isArray, wrapAdd } from 'poli-utils'
 console.log(isString('hello'))
 console.log(isArray([1,2,3]))
 console.log(camelCase('hello world'))
 const arr = [1,2,3]
-console.log(myClone()(arr))
+console.log(wrapAdd(1,2))
