@@ -20,3 +20,13 @@ export function getType<T>(target: T): string {
 export function isString(str: unknown): boolean{
     return getType(str) === 'String'
 }
+
+
+/**
+ * 判断是否是数字
+ * @param num  目标数据
+ * @returns string
+ */
+export function isNumber(num: unknown): boolean{
+    return getType(num) === 'Number'
+}
