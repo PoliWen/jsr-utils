@@ -1,9 +1,9 @@
 
 /**
- * 这是一个js工具库
- * @module jsr-utils
- */
-
++  * 这是一个js工具库
++  * @module
++  */
+import _ from 'lodash'
 /**
  * 获取数据类型
  * @param target  目标数据
@@ -18,6 +18,26 @@ export function getType<T>(target: T): string {
  * @param str  目标数据
  * @returns string
  */
-export function isString(str: unknown):boolean{
+export function isString(str: unknown): boolean{
     return getType(str) === 'String'
+}
+
+
+/**
+ * 判断是否是数字
+ * @param num  目标数据
+ * @returns string
+ */
+export function isNumber(num: unknown): boolean{
+    return getType(num) === 'Number'
+}
+
+/**
+ * 数据相加
+ * @param a number
+ * @param b number
+ * @returns number
+ */
+export function wrapAdd(a: number, b: number): number {
+    return _.add(a, b)
 }

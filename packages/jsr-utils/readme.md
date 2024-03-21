@@ -1,5 +1,5 @@
 # what
-### this is a javascript utils pacakges
+this is a javascript utils pacakges
 
 # example
 ``` ts

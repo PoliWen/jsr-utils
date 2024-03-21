@@ -1,6 +1,0 @@
-{
-    "name":"@wen/test-utils",
-    "version":"0.0.4",
-    "description":"this is a js utils",
-    "exports":"./index.ts"
-}
