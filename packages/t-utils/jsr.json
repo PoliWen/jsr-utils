@@ -1,0 +1,6 @@
+{
+    "name":"@wen/t-utils",
+    "version":"0.0.4",
+    "description":"this is a javascript utils pacakges",
+    "exports":"./index.ts"
+}
