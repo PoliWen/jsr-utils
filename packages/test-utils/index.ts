@@ -3,7 +3,7 @@
 +  * 这是一个js工具库
 +  * @module
 +  */
-import add from 'lodash.add'
+import _ from 'lodash'
 /**
  * 获取数据类型
  * @param target  目标数据
@@ -33,5 +33,5 @@ export function isNumber(num: unknown): boolean{
 }
 
 function wrapAdd(a: number, b: number): number {
-    return add(a, b)
+    return _.add(a, b)
 }

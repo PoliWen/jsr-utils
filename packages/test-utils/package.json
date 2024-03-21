@@ -1,5 +1,5 @@
 {
 	"dependencies": {
-		"lodash.add": "^3.7.0"
+		"lodash": "^4.17.21"
 	}
 }
