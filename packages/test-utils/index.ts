@@ -3,6 +3,7 @@
 +  * 这是一个js工具库
 +  * @module
 +  */
+import add from 'lodash.add'
 /**
  * 获取数据类型
  * @param target  目标数据
@@ -29,4 +30,8 @@ export function isString(str: unknown): boolean{
  */
 export function isNumber(num: unknown): boolean{
     return getType(num) === 'Number'
+}
+
+function wrapAdd(a: number, b: number): number {
+    return add(a, b)
 }
